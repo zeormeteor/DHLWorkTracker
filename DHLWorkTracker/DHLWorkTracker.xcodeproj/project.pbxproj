@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100000000000000000001 /* DHLWorkTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000001 /* DHLWorkTrackerApp.swift */; };
+		A00100000000000000000002 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000002 /* ActivityType.swift */; };
+		A00100000000000000000003 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000003 /* Shift.swift */; };
+		A00100000000000000000004 /* WorkSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000004 /* WorkSegment.swift */; };
+		A00100000000000000000005 /* HourlyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000005 /* HourlyRate.swift */; };
+		A00100000000000000000006 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000006 /* AppSettings.swift */; };
+		A00100000000000000000007 /* PayrollEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000007 /* PayrollEngine.swift */; };
+		A00100000000000000000008 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000008 /* Formatters.swift */; };
+		A00100000000000000000009 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000009 /* SeedData.swift */; };
+		A0010000000000000000000A /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000A /* CSVExporter.swift */; };
+		A0010000000000000000000B /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000B /* TodayViewModel.swift */; };
+		A0010000000000000000000C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000C /* ContentView.swift */; };
+		A0010000000000000000000D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000D /* TodayView.swift */; };
+		A0010000000000000000000E /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000E /* Components.swift */; };
+		A0010000000000000000000F /* ShiftReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000F /* ShiftReviewView.swift */; };
+		A00100000000000000000010 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000010 /* HistoryView.swift */; };
+		A00100000000000000000011 /* ShiftDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000011 /* ShiftDetailView.swift */; };
+		A00100000000000000000012 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000012 /* OverviewView.swift */; };
+		A00100000000000000000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000013 /* SettingsView.swift */; };
+		A00100000000000000000014 /* PayrollEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000014 /* PayrollEngineTests.swift */; };
+		A00100000000000000000015 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200000000000000000017 /* SwiftData.framework */; };
+		A00100000000000000000016 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200000000000000000018 /* Charts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00300000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00400000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00500000000000000000001;
+			remoteInfo = DHLWorkTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00200000000000000000001 /* DHLWorkTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLWorkTrackerApp.swift; sourceTree = "<group>"; };
+		A00200000000000000000002 /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		A00200000000000000000003 /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		A00200000000000000000004 /* WorkSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSegment.swift; sourceTree = "<group>"; };
+		A00200000000000000000005 /* HourlyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyRate.swift; sourceTree = "<group>"; };
+		A00200000000000000000006 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A00200000000000000000007 /* PayrollEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollEngine.swift; sourceTree = "<group>"; };
+		A00200000000000000000008 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		A00200000000000000000009 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		A0020000000000000000000A /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		A0020000000000000000000B /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		A0020000000000000000000C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0020000000000000000000D /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A0020000000000000000000E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A0020000000000000000000F /* ShiftReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftReviewView.swift; sourceTree = "<group>"; };
+		A00200000000000000000010 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A00200000000000000000011 /* ShiftDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDetailView.swift; sourceTree = "<group>"; };
+		A00200000000000000000012 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		A00200000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00200000000000000000014 /* PayrollEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollEngineTests.swift; sourceTree = "<group>"; };
+		A00200000000000000000015 /* DHLWorkTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHLWorkTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200000000000000000016 /* DHLWorkTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHLWorkTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200000000000000000017 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		A00200000000000000000018 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00600000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00100000000000000000015 /* SwiftData.framework in Frameworks */, A00100000000000000000016 /* Charts.framework in Frameworks */); runOnlyForDeploymentPostprocessing = 0; };
+		A00600000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00700000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00700000000000000000002 /* DHLWorkTracker */,
+				A00700000000000000000007 /* DHLWorkTrackerTests */,
+				A00700000000000000000009 /* Frameworks */,
+				A00700000000000000000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00700000000000000000002 /* DHLWorkTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000001 /* DHLWorkTrackerApp.swift */,
+				A00700000000000000000003 /* Models */,
+				A00700000000000000000004 /* Services */,
+				A00700000000000000000005 /* ViewModels */,
+				A00700000000000000000006 /* Views */,
+			);
+			path = DHLWorkTracker;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000002 /* ActivityType.swift */,
+				A00200000000000000000003 /* Shift.swift */,
+				A00200000000000000000004 /* WorkSegment.swift */,
+				A00200000000000000000005 /* HourlyRate.swift */,
+				A00200000000000000000006 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000007 /* PayrollEngine.swift */,
+				A00200000000000000000008 /* Formatters.swift */,
+				A00200000000000000000009 /* SeedData.swift */,
+				A0020000000000000000000A /* CSVExporter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (A0020000000000000000000B /* TodayViewModel.swift */);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000C /* ContentView.swift */,
+				A0020000000000000000000D /* TodayView.swift */,
+				A0020000000000000000000E /* Components.swift */,
+				A0020000000000000000000F /* ShiftReviewView.swift */,
+				A00200000000000000000010 /* HistoryView.swift */,
+				A00200000000000000000011 /* ShiftDetailView.swift */,
+				A00200000000000000000012 /* OverviewView.swift */,
+				A00200000000000000000013 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000007 /* DHLWorkTrackerTests */ = {
+			isa = PBXGroup;
+			children = (A00200000000000000000014 /* PayrollEngineTests.swift */);
+			path = DHLWorkTrackerTests;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000015 /* DHLWorkTracker.app */,
+				A00200000000000000000016 /* DHLWorkTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00700000000000000000009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000017 /* SwiftData.framework */,
+				A00200000000000000000018 /* Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00500000000000000000001 /* DHLWorkTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01000000000000000000002 /* Build configuration list for PBXNativeTarget "DHLWorkTracker" */;
+			buildPhases = (
+				A00800000000000000000001 /* Sources */,
+				A00600000000000000000001 /* Frameworks */,
+				A00900000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = DHLWorkTracker;
+			productName = DHLWorkTracker;
+			productReference = A00200000000000000000015 /* DHLWorkTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00500000000000000000002 /* DHLWorkTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01000000000000000000003 /* Build configuration list for PBXNativeTarget "DHLWorkTrackerTests" */;
+			buildPhases = (
+				A00800000000000000000002 /* Sources */,
+				A00600000000000000000002 /* Frameworks */,
+				A00900000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (A01100000000000000000001 /* PBXTargetDependency */);
+			name = DHLWorkTrackerTests;
+			productName = DHLWorkTrackerTests;
+			productReference = A00200000000000000000016 /* DHLWorkTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00400000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A00500000000000000000001 = {CreatedOnToolsVersion = 15.0; };
+					A00500000000000000000002 = {CreatedOnToolsVersion = 15.0; TestTargetID = A00500000000000000000001; };
+				};
+			};
+			buildConfigurationList = A01000000000000000000001 /* Build configuration list for PBXProject "DHLWorkTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A00700000000000000000001;
+			productRefGroup = A00700000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A00500000000000000000001 /* DHLWorkTracker */, A00500000000000000000002 /* DHLWorkTrackerTests */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00900000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A00900000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00800000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000001, A00100000000000000000002, A00100000000000000000003,
+				A00100000000000000000004, A00100000000000000000005, A00100000000000000000006,
+				A00100000000000000000007, A00100000000000000000008, A00100000000000000000009,
+				A0010000000000000000000A, A0010000000000000000000B, A0010000000000000000000C,
+				A0010000000000000000000D, A0010000000000000000000E, A0010000000000000000000F,
+				A00100000000000000000010, A00100000000000000000011, A00100000000000000000012,
+				A00100000000000000000013,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00800000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A00100000000000000000014 /* PayrollEngineTests.swift in Sources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01100000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A00500000000000000000001 /* DHLWorkTracker */; targetProxy = A00300000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A01200000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A01200000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01200000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Werkuren";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.heiko.dhlworktracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A01200000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Werkuren";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.heiko.dhlworktracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A01200000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.heiko.dhlworktracker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHLWorkTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DHLWorkTracker";
+			};
+			name = Debug;
+		};
+		A01200000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.heiko.dhlworktracker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHLWorkTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DHLWorkTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01000000000000000000001 /* Build configuration list for PBXProject "DHLWorkTracker" */ = {isa = XCConfigurationList; buildConfigurations = (A01200000000000000000001 /* Debug */, A01200000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A01000000000000000000002 /* Build configuration list for PBXNativeTarget "DHLWorkTracker" */ = {isa = XCConfigurationList; buildConfigurations = (A01200000000000000000003 /* Debug */, A01200000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A01000000000000000000003 /* Build configuration list for PBXNativeTarget "DHLWorkTrackerTests" */ = {isa = XCConfigurationList; buildConfigurations = (A01200000000000000000005 /* Debug */, A01200000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A00400000000000000000001 /* Project object */;
+}
